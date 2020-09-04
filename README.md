@@ -20,13 +20,15 @@ Cortes and Vapnik (1995). SVM is a binary classifier. Thus, the aim of SVM is
 to find the best classification function to distinguish between members of the two
 classes in the training data. In the case of classification, an SVM constructs an optimal separating hyperplane
 in a high-dimensional feature space. The computation of this hyperplane relies on the
-maximization of the margin and also the SVM is the best classifier among all the classifiers like the KNN, neural networks etc to detect the hand written digits.
+maximization of the margin. The SVM is the best classifier among all the classifiers like the KNN, neural networks etc to detect the hand written digits.
 
 ## Usage
 
 1. First run the generateClassifier.py file so that it will generate the classifier pickle file.
 2. Next run the pp.py file and draw the numbers and then save the file.
 3. Finally run the performRecognition.py file and see the output.
+
+#### Note: Draw slow for greater accuracy to recognizing the digits in image.
 
 ## Example
 
