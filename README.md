@@ -28,7 +28,7 @@ maximization of the margin. The SVM is the best classifier among all the classif
 2. Next run the pp.py file and draw the numbers and then save the file.
 3. Finally run the performRecognition.py file and see the output.
 
-#### Note: Draw slow for greater accuracy to recognizing the digits in image.
+#### Note: Draw slow for greater accuracy to recognize the digits in image.
 
 ## Example
 
