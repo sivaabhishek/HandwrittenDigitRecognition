@@ -1,12 +1,14 @@
 from tkinter import *
 import PIL
 from PIL import Image, ImageDraw
+import os
 
 
 def save():
     global image_number
     filename = f'image.jpg'
     image1.save(filename)
+    os.system("python performRecognition.py")
     exit()
 
 
